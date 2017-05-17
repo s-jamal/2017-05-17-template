@@ -1,0 +1,22 @@
+
+.container {
+    float: left;
+    width: 100%;
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1068px;
+    position: relative;
+    width: 100%;
+}
+
+.wrap:before,
+.wrap:after {
+    content: "";
+    display: table;
+}
+
+.wrap:after {
+    clear: both;
+}
